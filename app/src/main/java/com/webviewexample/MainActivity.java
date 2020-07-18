@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
   // This button will pass the techStop website url to MyWebView.class
   public void itgButton(View view) {
-    MyWebView.url = "https://techstop.github.io/";
+    MyWebView.url = "https://www.echochio.nctu.me/";
     Intent intent = new Intent(this, MyWebView.class);
     startActivity(intent);
   }
